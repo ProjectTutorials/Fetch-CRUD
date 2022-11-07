@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Fetch CRUD</title>
+    <!-- Bootstrap -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor' crossorigin='anonymous' />
+    <!-- Online Content -->
+    <link rel='icon' href='https://avatars.githubusercontent.com/u/108847584?s=200&v=4' />
+    <link rel='stylesheet' href='https://cdn.statically.io/gh/dependabot-pr/Static-Files/main/style.css' />
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body class="Reader pushDown100">
+    <nav class='navbar navbar-expand-sm bg-light fixed-top' id='customNav'>
+        <div class='container-fluid'>
+            <ul class='navbar-nav justify-content-start'>
+                <a href='https://github.com/pratikkabade'>
+                    <img alt='a' id='hrtLogo' src='https://avatars.githubusercontent.com/u/108847584?s=200&v=4'
+                        draggable='false' />
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+
+    <button class="btn btn-success" onclick="create_()">create</button><br><br>
+
+    <button class="btn btn-primary" onclick="read_all()">read_all</button>
+    <button class="btn btn-primary" onclick="read_one()">read_one</button><br><br>
+
+    <button class="btn btn-warning" onclick="update_()">update</button><br><br>
+
+    <button class="btn btn-danger" onclick="delete_()">delete</button><br>
+
+    <hr>
+
+
+
+</body>
+<script src='./app.js'></script>
+<!-- bootstrap -->
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'></script>
+
+<!-- CRUD OPERATIONS -->
+<script src='./src/create.js'></script>
+<script src='./src/read.js'></script>
+<script src='./src/update.js'></script>
+<script src='./src/delete.js'></script>
+
+</html>
